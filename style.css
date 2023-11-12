@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 47.9em;
+    background-color: rgb(230, 230, 230);
+}
+
+button{
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 90px;
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 100px;
+}
+
+.submit-btn {
+    border-radius: 500px;
+    height: 60px;
+    width: 60px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.alll {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    width: 30em;
+    border-radius: 10px;
+}
+
+.whole {
+    margin: 1em;
+}
+
+#day, #month, #year {
+    width: 90px;
+    margin-bottom: 3px;
+    height: 27px;
+    border: 1px solid darkgray;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+}
+
+.output-year,
+.output-month,
+.output-day {
+    color: hsl(259, 100%, 65%);
+}
+.box {
+    margin-left: 25px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid darkgray;
+    height: 100px;
+    color: darkgray;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.error-message {
+    color: red;
+    
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(/assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+
+.YM {
+    font-family: myFirstFont;
+    font-size: 3em;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 120px;
+}
+
+.place {
+    width: 100px;
+    border: 1px solid darkgray;
+    height: 40px;
+    border-radius: 0.3em;
+}

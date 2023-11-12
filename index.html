@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="script.js">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="alll">
+      <div class="whole">
+        <div class="input-box">
+          <div class="box" style="display: flex;">
+          <div class="input-container">
+            <div><label>Day</label></div>
+            <input type="number" id="day" placeholder="DD" />
+            <span><small class="error-day"></small></span>
+          </div>
+          
+
+          <div class="input-container">
+            <div><label>Month</label></div>
+            <input type="number" id="month" placeholder="MM" />
+            <span><small class="error-month"></small></span>
+          </div>
+
+
+          <div class="input-container">
+            <div><label>Year</label></div>
+            <input type="number" id="year" placeholder="YYYY" />
+            <span><small class="error-year"></small></span>
+          </div>
+         </div>
+          
+         <p class="error-message"></p>
+        </div>
+        <p class="error-message"></p>
+        <div class="output">
+          <div class="YM"><span class="output-year"> - - </span> years</div>
+          <div class="YM"><span class="output-month"> - - </span> months</div>
+          <div class="YM"><span class="output-day"> - - </span> days</div>
+        </div>
+      </div>
+        <button class="submit-btn">
+          <img style="border-radius: 100px;" src="/assets/images/icon-arrow.svg" alt="arrow-icon">
+        </button>
+        
+        <script src="script.js"></script>
+    </div>
+  </body>
+</html>
